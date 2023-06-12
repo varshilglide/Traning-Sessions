@@ -1,0 +1,33 @@
+Q: What is MicroController?
+--> A MicroController is a VLSI IC that contains a CPU(Processor) along with some other peripherals like memory, I/O Ports, Timers/Counters, Communication Interface, ADC, etc.
+
+Q: What is MicroProcessor?
+--> A MicroProcessor is just a Processor (CPU) and doesn't have the above-mentioned peripherals. 
+--> In order to make it work or build a system around it, we need to interface the peripherals separately.
+
+
+Q: 8051 MicroController?
+--> 8051 Microcontrollers were developed using N-MOS Technology but the use of battery-powered devices and their low power consumption lead to the usage of CMOS Technology.
+
+Q: Applications of 8051 MicroController?
+--> Consumer Appliances
+--> Home Applications
+--> Communication Systems
+
+Q: 8051 MicroController Features?
+--> 8-Bit ALU
+--> 8-Bit Accumulator
+--> RAM
+--> ROM
+--> I/O Ports
+--> Timers/Counters
+--> Serial Port
+--> External Memory
+--> Additional Features
+
+
+ 
+
+
+
+

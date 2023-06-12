@@ -1,0 +1,160 @@
+Simon Goda -- Presenter
+
+Topic: Embedded Linux Security
+
+1. Agenda:   Security, Tools and secure compilation securing the Linux System, Hardeningthe boot process, vendor support for security
+
+-> (1) Embedded Systems and Security
+---> Intended use requires correctness
+
+---> Security protests against 
+
+(2) How systems are attacked?
+--> An Attack model describes how a system can be attacked and where mitigations may be required.
+
+(3) Industry Standards & Self Assessments
+---> Security Standards - Compliance for specific industries.
+
+Ex: European IoT Security Standard 
+--> ETSI EN 303 645 - Defines 13 provisions for consumers
+--> Keep software updates
+--> Communicate securely
+--> Ensure software integrity
+
+---> No universal default passwords
+
+(4) Vulnerabilities, weaknesses & flaws
+--> CVE-ID
+--> CWE
+
+ETSI: implement a means to manage reports of vulnerabilities
+
+-------------------------------------------
+
+
+(2) Tools
+
+--> CWE: Programming and design weaknesses
+--> "Top 25 Most Dangerous Software"
+
+:Source Fortiication
+--> GCC Source Fortification provides compiler and run time checks on commonly used memory and string manipulation 
+
+:Other GCC Security Options
+
+--> Stack overflow issues can be detected with GCC Stack protoctor options
+Ex: -fstack-protector(all functions with buffers > 8 byte)
+
+--> ASLR(Address Space layout Randomization) 
+Ex: gcc -pie -fPIE file.c
+
+--> Global offset table attacks
+
+
+:GCC Options: Address Sanitizer
+--> Compile applications with the address
+
+:Checksec Script
+--> cHECKSEC script from meta-security can be used to test security properties of executables
+
+
+-------------------------------------------------
+
+(3) Securing Linux System:
+
+===> Authentication and Authorization
+-> Access Control Rules:
+(1) file - read, write, execute
+(2) Socket - Allow/Deny,Forward
+(3) Hardware: CPU time, memory
+
+
+===> Permissions and Special Bits
+-> Discretionary Access Control : Standard Linux Server and group Permissions.
+-rw-rw-r-- User Group Other
+
+===> Mandatory Access Control
+-> Mandatory Access Control Provides a dynamic means to control access.
+
+===> LSM and MAC in Linux:
+
+===> Linux Mandatory Access Control
+(1) SELinux
+(2) AppArmor
+(3) SMACK
+(4) Tomoyo
+
+===> Linux LXC Containres
+-> 'Full' Container: Complete running system with init and shell etc.
+-> 'LightWeight' container: Single Service or application
+
+===> FileSystem Security Features
+-> Security features - integrity and encryption
+
+-> Ensure software integrity
+-> Ensure Personal data is shorted
+
+===> Syscall Filtering with libseccomp
+-> Applications are inherently vulnerable:
+		-> Kernel or library bugs
+		-> malicious intent
+
+-> Minimize exposed attack surface
+
+---------------------------------------------------------
+
+
+(4) Securing the kernel
+
+==> Known kernel vulnerabilites - CVEs
+
+===> Kernel Security Configurations
+-> Unused drivers/firmware should be removed.
+-> The kernel can also be compiled with:
+	-> Security protections
+	-> reduced information
+
+-> Minimize exposed attack surface
+
+===> Use of Kernel Modules
+-> The use of loadable Linnux kernel modules is a potential attack vector
+
+-> Ensure software integrity
+
+--------------------------------------------------------
+
+(5) Hardenning the boot process
+
+===> Presistent threats
+ 
+===> Non secure boot
+
+===> Secure Boot - Authenticated Boot
+-> Ensure Software Integrity
+
+===> U-Boot Hardening
+-> U-Boot itself must be configured to minimize the attack surface
+
+--------------------------------------------------------------------
+
+(6) Vendor Support for Security
+
+===> Vendor support is crucial for devekoping and maintaiing a secure system.
+
+===> AMD-Xilinx Versal ACAP
+-> Versal: Adaptive Compute Acceleration Platform
+
+===> Versal Security Features
+-> AES-GCM Acceletator
+-> Truer Random Number Generator
+-> Anti-Tamper Featuees
+-> SHA3-384 Acceletor
+-> Non-volatile Storage/Configuration -eFUce, BBRAM
+
+-----------------------------------------------------------
+
+==> Securing an embedded linux systems means designing in security from the start
+==> A secure development lifecycle be used to manage this
+
+ 
+

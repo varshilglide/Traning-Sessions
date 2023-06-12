@@ -1,0 +1,17 @@
+--> A Memory module is a physical device that is used to store programs or data on a temporary or permanent basis for use in digital electronics.
+
+--> The following general types of the memory module can be used in an embedded system.
+
+Volatile Memory
+Non-Volatile Memory
+
+--> Volatile memory devices are types of storage devices that hold their content till power is applied to them.
+
+When power is switched off, these memories lose their content.
+
+--> An example of a volatile memory device is Random Access Memory (RAM)
+
+
+
+--> Non-volatile memories are permanent storage types of memory chips that can get back stored information even when the power is switched off. An example of a non-volatile memory device is Read Only Memory (ROM).
+

@@ -1,0 +1,17 @@
+
+==> SPI Sample Code
+1. Done Implementation of Sample code of SPI.
+
+==> RFID - RC522
+1. First, I am following this GitHub link for the step-by-step implementation of RC522 on stm32. https://github.com/Hamid-R-Tanhaei/RFID-MIFARE-RC522-ARM-STM32.
+   But in that, I got some errors during debugging the code I configure all the things correctly but still got errors and it will be more complex so I change the source.
+
+2. Second, I follow this Github link https://github.com/MaJerle/stm32f429. But in that also there are errors in Library Porting.
+
+==> ADC
+1. Successfully Implement ADC from (https://www.youtube.com/watch?v=oNiz5md51G4) this reference.
+
+==> Interrupt - ISR
+1. Done the implementation of interrupt on GPIO_USER_BUTTON (LED ON and OFF) from (https://www.youtube.com/watch?v=qd_tevhJ2eE) this reference.
+
+Conclusion : Continue to Implement RFID-RC522.

@@ -1,0 +1,53 @@
+--> A port is a device.
+--> to receive the bytes from external peripherals for reading them later using instructions executed on the processor.
+--> To Send the bytes to external peripherals or devices or processors using instructions executed on a processor.
+
+-->I/O port types
+1. Serial input-output ports
+2. Parallel input-output ports
+
+=> Serial I/O ports
+1. Synchronous Serial Input
+2. Synchronous Serial Output
+3. Asynchronous Serial UART Input
+4. Asynchronous Serial UART Output
+5. Both as input and as output, for example, modem.
+
+=> Parallel I/O ports
+1. Parallel port one-bit Input
+2. Parallel one-bit output
+3. Parallel Port multi-bit Input
+4. Parallel Port multi-bit Output
+
+Notes:
+
+--> Commonly used input peripherals in embedded systems are:
+1. Push button keys
+2. Dip switches
+3. Keyboard
+4. Mouse
+5. touchscreen
+
+Output Devices are:
+1. LCD screen
+2. Printers
+3. PCs
+
+---> GPIO ports of different microcontrollers have 16 I/O pins for each port.
+---> 8051-based microcontroller supports 8 I/O pins.
+
+==> If we take a pic microcontroller it has
+
+ five input-output ports which are:
+1. Port A
+2. Port B
+3. Port C
+4. Port D
+5. Port E
+
+=> Pin of ports
+1. Port A --> 7 pins
+2. Port B --> 8 pins
+3. Port C --> 8 pins
+4. Port D --> 8 pins
+5. Port E --> 3 pins

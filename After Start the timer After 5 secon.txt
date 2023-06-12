@@ -1,0 +1,13 @@
+After Start the timer After 5 second LED Must on
+then timer stop and get counter
+
+Hint:
+
+0.0655
+
+if(counter == 76)
+{
+HAL_Timer_stop();
+}
+
+--> Remaining left over count how to calculate

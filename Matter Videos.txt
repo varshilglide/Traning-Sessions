@@ -1,0 +1,16 @@
+Link: https://www.youtube.com/watch?v=v_285vCHifw
+
+1. Matter aims to reduce fragmentation across different vendors, and achieve interoperability among smart home devices and Internet of things (IoT) platforms from different providers.
+
+2. The standard is based on Internet Protocol (IP) and works through one or several compatible border routers, avoiding the use of multiple proprietary hubs. 
+
+3. Matter products run locally and do not rely on an internet connection, although the standard is designed to talk to the cloud easily.
+
+4. Version 1.0 of the specification was published on 4 October 2022.[20] It introduced support for lighting products (such as mains power plugs, electric lights, and switches), door locks, thermostats and heating, ventilation, and air conditioning controllers, blinds and shades, home security sensors (such as door, window, and motion sensors), and televisions and streaming video players.
+
+5. Matter uses different wireless protocols for use cases:
+
+--> Wifi is used for devices requiring higher bandwidth and for easy integration into existing Wi-Fi networks.
+--> The introduction to Wi-Fi 6 also made it attractive for energy-constrained IoT devices.
+--> Thread is a low-power wireless mesh network usually used for devices requiring the highest energy efficiency.
+--> Bluetooth LE is used for the secure commissioning of devices.

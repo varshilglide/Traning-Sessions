@@ -1,0 +1,11 @@
+Follow up after the training: 
+ 
+1. 8051 introductions: https://www.electronicshub.org/8051-microcontroller-introduction/ 
+2. ARM revolution: https://www.youtube.com/watch?v=R8bH_pary3Y&list=PLgwJf8NK-2e7nFEozQhZDZDSm09SwqbGP&index=1 
+3. Memory module: https://www.elprocus.com/different-types-of-memory-modules-used-embedded-system/ 
+	
+4. To enable and disable bit in registers https://blog.feabhas.com/2019/01/peripheral-register-access-using-c-structs-part-1/ 
+5. stm32 registers  https://controllerstech.com/stm32-gpio-output-config-using-registers/ 
+6. Pin-muxing in the controller:  Same pin shared by gpio, i2c-scl, uart-tx, and so on. We need to define only the peripheral that is needed. 
+7. HW: What is a port in stm32? how many ports are there and how to access another gpio except user-led and user switch on a different PORT and pin? 
+8. https://www.st.com/en/microcontrollers-microprocessors/stm32l4	-series.html# 

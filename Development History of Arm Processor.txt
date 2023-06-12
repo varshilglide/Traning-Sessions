@@ -1,0 +1,6 @@
+Development History of Arm Processor:
+
+--> ARM(Advance Risk Machine)
+--> It makes CPU Core and provides CPU cores in different companies.
+--> right now there are using 10nm technology.
+--> Initial Arm Processor - ARM7TDMI (Thumb Instruction)
