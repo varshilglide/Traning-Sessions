@@ -1,0 +1,12 @@
+I2C Implementation:
+
+https://microcontrollerslab.com/bme280-stm32-blue-pill-stm32cubeide/#:~:text=With%20BME280%2C%20the%20STM32%20Blue,%2C%20relative%20humidity%2C%20and%20altitude.
+
+https://microcontrollerslab.com/bme280-stm32-blue-pill-stm32cubeide/
+
+
+
+https://randomnerdtutorials.com/bme280-sensor-arduino-pressure-temperature-humidity/
+
+Code on STM32CUBEIDE : https://www.digikey.in/en/maker/projects/getting-started-with-stm32-i2c-example/ba8c2bfef2024654b5dd10012425fa23
+Code video of I2C on STM32CUBEIDE : https://www.youtube.com/watch?v=isOekyygpR8

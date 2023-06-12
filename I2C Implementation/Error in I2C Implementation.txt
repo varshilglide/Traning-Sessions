@@ -1,0 +1,4 @@
+Error in I2C Implementation:
+
+1. ret = HAL_I2C_Master_transmit(&hi2c1, TMP102_ADDR, buf, 1, HAL_MAX_DELAY);
+--> Error Shows : Undefined reference to 'HAL_I2C_Master_transmit'
