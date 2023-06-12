@@ -1,0 +1,3 @@
+UART Implementation:
+
+https://www.dmcinfo.com/latest-thinking/blog/id/9372/nucleo-uart-tutorial
